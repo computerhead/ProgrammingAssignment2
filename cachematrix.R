@@ -1,5 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
 
 ################################################################################
 ## cacheSolve retrieves the inverse of the matrix if the inverse is already 
@@ -11,7 +9,6 @@
 ## it and retrieves it when needed.  It also determines if the matrix is changed
 ## and updates the matrix and nulls the inverse if it is changed
 ################################################################################
-## Write a short comment describing this function
 ## makeCacheMatrix takes a matrix as an argument.  If none is provided it 
 ## creates a null matrix.  It returns a list of functions.  The functions are -
 ################################################################################
@@ -56,7 +53,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 ################################################################################
 ## cacheSolve takes a list of functions created by the makeCacheMatrix function
 ## it checks to see if the inverse has been calculated and if so returns it.
@@ -78,7 +74,7 @@ cacheSolve <- function(x, ...) {
     inv ## return the inverse
 }
 
-## END of assignment.  functions below are alternate versions
+## END of assignment.  functions below are alternate versions ##################
 
 ################################################################################
 ################################################################################
@@ -134,7 +130,6 @@ makeCacheMatrixAlt <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 ################################################################################
 ## cacheSolveAlt takes a list of functions created by the makeCacheMatrixAlt 
 ## function and is an alternate solution that uses the isset() boolean.
